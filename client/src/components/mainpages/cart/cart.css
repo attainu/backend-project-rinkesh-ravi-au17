@@ -1,0 +1,47 @@
+.cart{
+    /* position: relative; */
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    border: 1px solid #ccc;
+    transform: scaleY(0.98);
+    width: 40%;
+    height: 50%;
+}
+.img_container {
+    width: 50%;
+}
+.amount span{
+    color: crimson;
+    padding: 0 20px;
+}
+.amount button{
+    width: 40px;
+    height: 40px;
+    border: 1px solid #777;
+}
+.box-detail{
+    text-align: center;
+}
+.delete{
+    position: absolute;
+    top:0;
+    right: 5px;
+    color: black;
+    font-weight: 500;
+    cursor: pointer;
+}
+.total{
+    height: 50px;
+    display: flex;
+    margin-left: 15%;
+}
+.btn{
+    margin-left: 15%;
+    padding: 8px 35px;
+    border: solid black 1px;
+    color: white;
+    background-color: blue;
+    border-radius: 3px;
+}
