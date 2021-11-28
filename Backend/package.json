@@ -4,13 +4,12 @@
   "description": "",
   "main": "server.js",
   "scripts": {
-    "dev": "nodemon server.js",
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js",
     "heruko-postbuild": "NPM_CONFIG_PRODUTION=false npm install --prefix Frontend && npm run build --prefix Frontend"
   },
   "keywords": [],
-  "author": "jyotirmay",
+  "author": "Ankur Pandey",
   "license": "ISC",
   "dependencies": {
     "bcrypt": "^5.0.1",
