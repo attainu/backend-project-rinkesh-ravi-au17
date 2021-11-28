@@ -34,6 +34,10 @@ mongoose.connect(URI, {
     console.log("MongoDB Connection successful")
 })
 
+if (process.env.NODE_ENV == "production") {
+    app.use(express.static("Frontend/build"));
+}
+
 
 const PORT = process.env.PORT || 5000
 
